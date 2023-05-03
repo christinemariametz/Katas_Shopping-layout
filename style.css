@@ -8,4 +8,42 @@
 html {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
+    background-color: gainsboro;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+article {
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    font-size: large;
+}
+
+div {
+    background-color: darkgray;
+    border: opx solid black;
+    border-radius: 4px;
+    padding: 10px;
 }
